@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;600&display=swap");
+body, button {
+  font-family: 'Baloo Da 2';
+}
+
+.d-alert {
+  background-color: red;
+}
+
+.d-btn {
+  background: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: 0px;
+  cursor: pointer;
+  border: none;
+}
+
+.d-btn.text {
+  background-color: transparent;
+  padding: 4px 12px 4px 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.d-btn.text.primary {
+  color: #3261e3;
+}
+
+.d-btn.text:hover {
+  background-color: rgba(125, 125, 125, 0.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*# sourceMappingURL=index.css.map */

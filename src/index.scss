@@ -1,0 +1,11 @@
+@charset 'UTF-8'; 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;600&display=swap');
+
+// Utils
+@import 'utils/_variables.scss';
+@import 'utils/_general.scss';
+@import 'utils/_helpers.scss';
+
+// Components
+@import 'components/_alerts.scss';
+@import 'components/_buttons.scss';

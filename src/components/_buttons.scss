@@ -1,0 +1,27 @@
+.d-btn {
+  background: transparent;
+  transition: all 0.2s;
+  outline: 0px;
+  cursor: pointer;
+  border: none;
+
+  // TEXT BUTTONS
+  &.text {
+    background-color: transparent;
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    &.primary {
+      color: $d-primary;  
+    }
+  }
+
+  &.text:hover {
+    background-color: $d-util-hover;
+    transition: all 0.3s;
+  }
+
+
+
+}

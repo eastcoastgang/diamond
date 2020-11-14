@@ -1,0 +1,23 @@
+{
+  "name": "diamond",
+  "version": "0.0.1",
+  "description": "Modern and light scss library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eastcoastgang/diamond.git"
+  },
+  "keywords": [
+    "scss",
+    "library",
+    "framework"
+  ],
+  "author": "r0h.in",
+  "bugs": {
+    "url": "https://github.com/eastcoastgang/diamond/issues"
+  },
+  "homepage": "https://github.com/eastcoastgang/diamond#readme"
+}
