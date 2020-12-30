@@ -15,11 +15,68 @@
     &.primary {
       color: $d-primary;  
     }
+
+    &.secondary {
+      color: $d-secondary;
+    }
+
+    &.success {
+      color: $d-success
+    }
+
+    &.danger {
+      color: $d-danger
+    }
+
+    &.warning {
+      color: $d-warning
+    }
+
   }
 
   &.text:hover {
     background-color: $d-util-hover;
     transition: all 0.3s;
+  }
+
+  // CONTAINED BUTTONS
+  &.contained {
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px #888888;
+
+    &.primary {
+      background-color: $d-primary;
+      color: white;
+    }
+
+    &.secondary {
+      background-color: $d-secondary;
+      color: white;
+    }
+
+    &.success {
+      background-color: $d-success;
+      color: white;
+    }
+
+    &.danger {
+      background-color: $d-danger;
+      color: white;
+    }
+
+    &.warning {
+      background-color: $d-warning;
+      color: white;
+    }
+
+
+  }
+
+  &.contained:hover {
+    box-shadow: 0px 2px 9px #888888;
+    transition: all 0.5s;
   }
 
 

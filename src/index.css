@@ -3,6 +3,14 @@ body, button {
   font-family: 'Baloo Da 2';
 }
 
+[data-ripplet] {
+  -webkit-tap-highlight-color: transparent;
+  /* 1 */
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  /* 2 */
+}
+
 .d-alert {
   background-color: red;
 }
@@ -27,9 +35,84 @@ body, button {
   color: #3261e3;
 }
 
+.d-btn.text.secondary {
+  color: #6f31f5;
+}
+
+.d-btn.text.success {
+  color: #28dce2;
+}
+
+.d-btn.text.danger {
+  color: #df342e;
+}
+
+.d-btn.text.warning {
+  color: #df9527;
+}
+
 .d-btn.text:hover {
   background-color: rgba(125, 125, 125, 0.1);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.d-btn.contained {
+  padding: 4px 12px 4px 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 2px 3px #888888;
+          box-shadow: 0px 2px 3px #888888;
+}
+
+.d-btn.contained.primary {
+  background-color: #3261e3;
+  color: white;
+}
+
+.d-btn.contained.secondary {
+  background-color: #6f31f5;
+  color: white;
+}
+
+.d-btn.contained.success {
+  background-color: #28dce2;
+  color: white;
+}
+
+.d-btn.contained.danger {
+  background-color: #df342e;
+  color: white;
+}
+
+.d-btn.contained.warning {
+  background-color: #df9527;
+  color: white;
+}
+
+.d-btn.contained:hover {
+  -webkit-box-shadow: 0px 2px 9px #888888;
+          box-shadow: 0px 2px 9px #888888;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.d-card {
+  background-color: #fff;
+  padding: 14px;
+  margin: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.6);
+          box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.6);
+}
+
+.d-card.light {
+  -webkit-box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.2);
+          box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.2);
+}
+
+.d-card.heavy {
+  -webkit-box-shadow: 0px 4px 10px #888888;
+          box-shadow: 0px 4px 10px #888888;
 }
 /*# sourceMappingURL=index.css.map */

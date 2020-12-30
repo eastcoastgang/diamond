@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diamond</title>
+
+  <link rel="stylesheet" href="docs.css">
+  <link rel="stylesheet" href="../src/index.css">
+</head>
+<body>
+
+  <center>
+    <h1>Diamond v0.0.1</h1>
+    <p>Official Documentation</p>
+  </center>
+
+  <h2>Installation</h2>
+  <p>Diamond installation is meant to be very easy. We use only a few common external libraries. You can find our setup template below containing all the required imports for a basic HTML project.</p>
+  <center>
+    <button class="d-btn text primary">Setup Template</button>
+  </center>
+
+  <h2>Components</h2>
+  <p>Available components are listed below along with code samples.</p>
+
+  <br><br>
+
+  <h3>Text Buttons</h3>
+  <p>Use the <code>&lt;button&gt;</code> element with class <code>.d-btn</code>, <code>.text</code> or <code>.contained</code>, and <code>.primary</code> or other colors. For example, a contained danger button would simply contain the following classes: <code>d-btn contained danger</code>.</p>
+  <button class="d-btn text primary"> text primary</button>
+  <button class="d-btn text secondary"> text secondary</button>
+  <button class="d-btn text success"> text success</button>
+  <button class="d-btn text danger"> text danger</button>
+  <button class="d-btn text warning"> text warning</button>
+
+  <br><br>
+
+  <h3>Contained Buttons</h3>
+  <button class="d-btn contained primary"> contained primary</button>
+  <button class="d-btn contained secondary"> contained secondary</button>
+  <button class="d-btn contained success"> contained success</button>
+  <button class="d-btn contained danger"> contained danger</button>
+  <button class="d-btn contained warning"> contained warning</button>
+
+  <br><br>
+
+  <h3>Cards</h3>
+  <p>Use the <code>&lt;div&gt;</code> element with class <code>.d-card</code>. You can specify shadow intensity with <code>.light</code> or <code>.heavy</code></p>
+
+  <div class="d-card light">
+    <p>Here is a light card with classes: <code>d-card light</code>.</p>
+  </div>
+
+  <div class="d-card">
+    <p>Here is a default card with classes: <code>d-card</code>.</p>
+  </div>
+
+  <div class="d-card heavy">
+    <p>Here is a heavy card with classes: <code>d-card heavy</code>.</p>
+  </div>
+
+  <h3>Lists</h3>
+  <p>Use the <code>&lt;ul&gt;</code> element with class <code>.d-list</code>.</p>
+
+  <ul class="d-list"></ul>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ripplet.js@0.3.0/umd/ripplet-declarative.min.js"></script>
+  <script src="../js/diamond.js"></script>
+
+</body>
+</html>
