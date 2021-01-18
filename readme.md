@@ -4,7 +4,7 @@
 </p>
 <p align="center">
   <br><br>
-  <img src="https://img.shields.io/badge/version-0.2.1-e218f5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/version-0.2.x-e218f5?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues/eastcoastgang/diamond?style=for-the-badge" />
   <img src="https://img.shields.io/github/stars/eastcoastgang/diamond?style=for-the-badge" />
 </p>
